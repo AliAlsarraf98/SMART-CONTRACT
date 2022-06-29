@@ -105,3 +105,10 @@ const POLYGONSCAN_APIKEY=process.env.POLYGONSCAN_APIKEY;
 
 - Run this command and make sure it pass so you know that eveything now is working
   `npx hardhat test`
+
+## TO DEPLOY TO TESTNET
+
+- Run this command
+  `npx hardhat --netwrok [NETWORK-NAME-HERE] run scripts/[SCRIPT-FILE-NAME-HERE]`
+  for example in my case it is
+  `npx hardhat --network rinkeby run scripts/2_deploy_Greeter.sol.js`
