@@ -14,7 +14,7 @@ Smart contract setup is going to show you all the steps needed to code and deplo
 
 ## Start your first project
 
-- Run `npx hardhat` and choose the first option **> Create a sample project**.
+- Run `npx hardhat` and choose the first option **> Create a JavaScript project**.
 - Choose the file path you want your project in
 - Select **YES** for adding `.gitignore`
 - Add all these Dependencies by running the following command
@@ -57,7 +57,7 @@ require('dotenv').config()
 const ACCOUNT_ONE_PRVKEY=process.env.ACCOUNT_ONE_PRVKEY;
 const ALCHEMY_APIKEY_RINKEBY=process.env.ALCHEMY_APIKEY_RINKEBY;
 const ALCHEMY_APIKEY_MAINNET=process.env.ALCHEMY_APIKEY_MAINNET;
-const ALCHEMY_APIKEY_MUMBIE=process.env.ALCHEMY_APIKEY_MUMBIE;
+const ALCHEMY_APIKEY_MUMBAI=process.env.ALCHEMY_APIKEY_MUMBAI;
 const ALCHEMY_APIKEY_POLYGON=process.env.ALCHEMY_APIKEY_POLYGON;
 
 const ETHERSCAN_APIKEY=process.env.ETHERSCAN_APIKEY;
@@ -76,7 +76,7 @@ const POLYGONSCAN_APIKEY=process.env.POLYGONSCAN_APIKEY;
             accounts: [ACCOUNT_ONE_PRVKEY]
         },
         maticmum: {
-            url: ALCHEMY_APIKEY_MUMBIE,
+            url: ALCHEMY_APIKEY_MUMBAI,
             accounts: [ACCOUNT_ONE_PRVKEY]
         },
         mainnet: {
